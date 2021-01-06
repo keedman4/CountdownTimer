@@ -1,0 +1,291 @@
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.axaMansardSharepoint {
+	width: 100%;
+	height: 30rem;
+}
+.axaaxaMansardSharepoint {
+	img {
+		min-height: 30rem;
+	}
+}
+.alertBtns {
+	width: 15%;
+	height: 3rem;
+	background: darkblue;
+	float: left;
+	color: white;
+    i{
+        float:left;
+        margin-right: 10px;
+        
+    }
+}
+.alertMarquee {
+	width: 85%;
+	height: 3rem;
+	background: pink;
+	float: left;
+	color: white;
+    padding-top: 20px;
+
+}
+.axaMansardLeft {
+	width: 68%;
+	height: 100%;
+    float: left;
+    margin-right: 3%;
+}
+.axaMansardRight {
+	width: 29%;
+	height: 100%;
+    float: left;
+    
+}
+.timer{
+    width: 100%;
+    height: 4rem;
+    background: teal;
+}
+.timerText{
+    width: 30%;
+    height: 4rem;
+    background:#00ADC6;
+    color: white;
+    float: left;
+    padding: 0.3rem;
+}
+.timerText p{
+    font-size: 10px;
+}
+
+.days{
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  
+.timerValue{
+    width: 70%;
+    height: 4rem;
+    background:#027280;
+    color: white;
+    float: left;
+    font-size: 1.5rem;
+    padding:1rem;
+}
+.alert{
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: darkblue;
+}
+
+.timeline{
+    width: 100%;
+    height: 5rem;
+    color: darkblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.timeline h3{
+    color: darkblue;
+    float: left;
+    margin-top: 0;
+    font-size: 18px;
+    }
+.timeline a{
+    color: darkblue;
+    text-decoration: underline;
+    float: right;
+    text-transform: uppercase;
+}
+.alert img{
+    max-height: 20rem;
+}
+.alertNews{
+    width: 100%;
+    color: black;
+}
+.alertNews h6{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.alertNews h3{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.alertNews a{
+    text-decoration: none;
+    color: black;
+}
+.alertNews p{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.alertNews small{
+    font-size: 7px;
+    margin-bottom: 0;
+}
+
+.eachSlide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .eachSlide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .links{
+    width: 100%;
+    color: darkblue;
+    height: 100%;
+    display: block;
+    overflow: auto;
+}
+.links a{
+    width: 30%;
+   height: 5.5rem;
+    background: darkblue;
+    float: left;
+    margin:1.5%;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.birthday{
+    width: 100%;
+    height: 18rem;
+}
+.avatars{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 10px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.avatarName{
+    width: 65%;
+    height: 5rem;
+    float: left;
+    padding: 0;
+}
+.avatarName h5{
+margin-top: 3px;
+   margin-bottom: 0;
+   font-weight: bold;
+   font-size: 13px;
+    }
+.avatarName small{
+font-size: 10px;
+color: crimson;
+}
+.cardOutline{
+    width: 90%;
+    height: 5rem;
+    border: 1px solid rgb(7, 125, 194);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 3%;
+    margin-bottom: 15px;
+}
+.ratings{
+    width: 30%;
+    height: 4rem;
+    float:left;
+    margin: 3px;
+}
+.ratingsOutline{
+    width: 30%;
+    height: 4rem;
+    float:left;
+    margin: 3px;
+    border-right: 1px solid  rgb(7, 125, 194);
+}
+.ratings small{
+    margin-bottom: 0;
+}
+
+.docCard{
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(90deg, rgba(0,26,149,1), rgba(0,125,183,1));
+    color: white;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.docCardLeft{
+    width: 20%;
+    float: left;
+}
+.docCardRight{
+    width: 80%;
+    float: left;
+}
+.docCardRight h3{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.docCardRight p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.spolights{
+    width: 100%;
+    height: 15rem;
+}
+.spolight{
+    width: 50%;
+    height: 15rem;
+    background: #FCD384;
+}
+
+.root{
+    max-width: 30%;
+    margin:1%;
+    height: 18rem;
+   float: left;
+
+  }
+  .media{
+    height: 100px;
+  }
+  .card{
+      width: 100%;
+      height: 25rem;
+      
+  }
+
